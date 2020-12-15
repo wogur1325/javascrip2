@@ -6,8 +6,8 @@ let fontD2CodingBold ;
 
 function preload()
 {
-    fontD2Coding        = loadFont( "../fonts/D2Coding-Ver1.3.2-20180524.ttf" );
-    fontD2CodingBold    = loadFont( "../fonts/D2CodingBold-Ver1.3.2-20180524.ttf" );
+    //fontD2Coding        = loadFont( "../fonts/D2Coding-Ver1.3.2-20180524.ttf" );
+    //fontD2CodingBold    = loadFont( "../fonts/D2CodingBold-Ver1.3.2-20180524.ttf" );
 }
 
 function setup()
@@ -15,7 +15,7 @@ function setup()
     createCanvas( 640, 320 );
     console.log("setup()호출됨");
 
-    textFont( fontD2Coding );
+    //textFont( fontD2Coding );
     textSize( 32 );
 }
 
@@ -23,12 +23,12 @@ function draw()
 {
     background( 96, 96, 96 );
 
-    textFont( fontD2Coding );
+    //textFont( fontD2Coding );
     textSize( 16 );
     fill( 255, 255, 0 );
     text( "안녕하세요", mouseX, mouseY );
 
-    textFont( fontD2CodingBold );
+    //textFont( fontD2CodingBold );
     textSize( 16 );
     fill( 0, 255, 255 );
     text( "안녕하세요", mouseX, mouseY + 24 );
